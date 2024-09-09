@@ -228,7 +228,7 @@ ul {
     width: 100px;
   }
   .content .header .search input[type= search] {
-    width: 35px;
+    width: 32px;
     background-color: var(--alt-color);
   }
   .content .header .search input[type= search]:focus::placeholder {
