@@ -901,6 +901,11 @@ ul {
   position: relative;
   height: 50px;
 }
+@media (max-width: 390px) {
+  .social-stats div {
+    font-size: 14px;
+  }
+}
 .social-stats div i {
   width: 50px;
   height: 100%;
@@ -920,7 +925,7 @@ ul {
 }
 .social-stats div span {
   flex: 1;
-  padding: 10px 10px 10px 70px;
+  padding: 10px 10px 10px 50px;
 }
 .social-stats .twitter span {
   color: #1da1f2;
